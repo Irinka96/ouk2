@@ -3,7 +3,7 @@
 
     subscriptionForm.addEventListener('submit', ev => {
         ev.preventDefault();
-
+        #  TODO не работает кнопка подписаться!!
         const subpscriptionEmail = subscriptionForm.querySelector('#subscription-email');
         const subpscriptionHelp = subscriptionForm.querySelector('#subscription-help');
         const email = subpscriptionEmail.value.trim();
